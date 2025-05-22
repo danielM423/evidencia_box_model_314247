@@ -1,0 +1,62 @@
+/*selector de clase
+-se determina con (.)
+- todas las etiquetas con esa clase
+    se tendra con el mismo estilo
+*/
+
+/* modelo de caja 
+    el contenido :texto imagenes video svg
+    para el modelo de caja tiene que tener un contenido deve tener el ancho y alto 
+    padding (relleno) es el esacio que hay en el contenido y de la margen es el relleno entre ellas dos 
+*/
+.box1{
+    background-color: darkred;
+    height: 200px;
+    padding-top: 50px ;
+    padding-left: 50px ;
+    padding-right: 50px;
+    border-style:inset;
+    border-width: 40px ;
+    border-color: black;
+    
+     
+}
+
+.box2{
+  /*propiedades de width (ancho) y heigth(alto ) solo se aplica a la capa de conteido*/
+  display: block;
+background-color: firebrick ;
+width: 400px;
+height: 100px;
+padding: 30px 40px 10px 20px ;
+border : dotted red 50px
+box-sizing: border box;
+}
+  /* los estilos de identificador se dan con el #
+  se a´lica un elemento en todo el documento */
+
+.box3{
+     display: block;
+background-color: lightsalmon;
+padding:40px 20px ;
+width: 250px;
+border-top:yellow 20px outset ;
+border-bottom:blue 14px ridge ;
+border-left:10px green double ;
+border-right: 15px greenyellow none;
+}
+
+#box4{
+    background-color: #ca0d0d ;
+ height: 40px;
+ padding: 50px;
+ border-top-color:blue ;
+ border-top-style:double;
+ border-top-width: 40px;
+ border-style: inset ;
+ border-left-color: green;
+ border-bottom:40px blueviolet dashed solid;
+ border-left-color:blue ;
+ border-bottom-style:double;
+ border-right-width: 40px;
+}

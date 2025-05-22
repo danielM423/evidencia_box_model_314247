@@ -1,0 +1,71 @@
+/*sed aplicara la seleccion universal sirve para aplicar a todas las caras sin exepcion*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.cara{
+    border-radius: 5px;
+    border: black solid 2px;
+    width: 400px;
+    height: 500px;
+    background-color:cornflowerblue;
+    /*auto es para distribuir la dimencion al tamaño disponible */
+    margin: 20px auto 20px auto;
+}
+
+/*selector para hijo directo ders*/
+
+.cara > img {
+   
+    display:block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    /*border radius*/
+    border-radius: 100%;
+    margin:  auto 40px auto;
+}
+/*selector para el contenedor */
+/*el espacion significa es desendencia */
+
+.cara .contenedor {
+    display: block;
+    margin: auto 10px auto;
+    width:300px;
+    overflow: hidden;
+
+}
+
+.contenedor>h1{
+    
+    display: block;
+    font-size:24px;
+    text-align: 24px;
+    margin-bottom: 20px;
+
+
+}
+
+.contenedor>p{
+    display: block;
+    font-size:24px;
+    text-align: 24px;
+    margin-bottom: 20px;
+
+
+}
+/*selector de hermano de adyasente */
+p + a{
+
+    display: block;
+    background-color: brown;
+    margin: 20px;
+    border-radius:5px;
+    text-decoration:none;
+    text-align:center;
+    color: aliceblue;
+    padding: 10px;
+}

@@ -18,7 +18,7 @@
     border-style:inset;
     border-width: 40px ;
     border-color: black;
-    
+    margin: 100px;
      
 }
 
@@ -29,8 +29,11 @@ background-color: firebrick ;
 width: 400px;
 height: 100px;
 padding: 30px 40px 10px 20px ;
-border : dotted red 50px
+border : dotted red 50px;
 box-sizing: border box;
+margin-top: 50px;
+margin-left: 10px;
+margin-bottom: 20px;
 }
   /* los estilos de identificador se dan con el #
   se a´lica un elemento en todo el documento */
